@@ -46,15 +46,15 @@ $ sudo chmod 666 /dev/myled0
   `$ echo ? > /dev/myled0 ## ?に対応する小文字アルファベット一文字を入れる`  
   アルファベットとbpmの対応  
   ```
-  a = 10bpm			k = 110bpm		u = 210bpm  
-  b = 20bpm			l = 120bpm		v = 220bpm  
-  c = 30bpm			m = 130bpm		w = 230bpm  
-  d = 40bpm			n = 140bpm		x = 240bpm  
-  e = 50bpm			o = 150bpm		y = 250bpm  
-  f = 60bpm			p = 160bpm		z = 260bpm  
-  g = 70bpm			q = 170bpm  
-  h = 80bpm			r = 180bpm  
-  i = 90bpm			s = 190bpm  
+  a = 10bpm		k = 110bpm		u = 210bpm  
+  b = 20bpm		l = 120bpm		v = 220bpm  
+  c = 30bpm		m = 130bpm		w = 230bpm  
+  d = 40bpm		n = 140bpm		x = 240bpm  
+  e = 50bpm		o = 150bpm		y = 250bpm  
+  f = 60bpm		p = 160bpm		z = 260bpm  
+  g = 70bpm		q = 170bpm  
+  h = 80bpm		r = 180bpm  
+  i = 90bpm		s = 190bpm  
   j = 100bpm		t = 200bpm
   ```
   例)　kならば110bpmが流れる  
