@@ -35,16 +35,16 @@ $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0  
 ```
 1. LEDのオンオフ  
-  echoを使って入力することで簡単なledの操作ができます。  
-  `$ echo ? > /dev/myled0 ## ?に対応する数字一文字を入れる`  
-  全LED点灯 → 9  
-  全LED点灯 → 0  
-  ？秒ごとに一個ずつLEDを点灯。  
+echoを使って入力することで簡単なledの操作ができます。  
+`$ echo ? > /dev/myled0 ## ?に対応する数字一文字を入れる`  
+全LED点灯 → 9  
+全LED点灯 → 0  
+？秒ごとに一個ずつLEDを点灯。  
   
 2. メトロノーム機能  
-  echoを使って入力することでメトロノームとして使えます。  
-  `$ echo ? > /dev/myled0 ## ?に対応する小文字アルファベット一文字を入れる`  
-  アルファベットとbpmの対応  
+echoを使って入力することでメトロノームとして使えます。  
+`$ echo ? > /dev/myled0 ## ?に対応する小文字アルファベット一文字を入れる`  
+アルファベットとbpmの対応  
   ```
   a = 10bpm		k = 110bpm		u = 210bpm  
   b = 20bpm		l = 120bpm		v = 220bpm  
@@ -57,8 +57,8 @@ $ sudo chmod 666 /dev/myled0
   i = 90bpm		s = 190bpm  
   j = 100bpm		t = 200bpm
   ```
-  例)　kならば110bpmが流れる  
+例)　kならば110bpmが流れる  
   
 ## ライセンス
 GNU General Public License v3.0  
-リポジトリ内にあるLISENCEを参照してください。  
+リポジトリ内にあるCOPYINGを参照してください。  
