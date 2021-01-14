@@ -61,4 +61,4 @@ echoを使って入力することでメトロノームとして使えます。
   
 ## ライセンス
 GNU General Public License v3.0  
-リポジトリ内にあるCOPYINGを参照してください。  
+詳細はリポジトリ内にあるCOPYINGを参照してください。  
