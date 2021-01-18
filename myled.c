@@ -1,3 +1,10 @@
+/*
+/	GPL-Ver3.0 License
+/
+/	Copyright (c) 2021, Souma Yamabe & Ryuichi Ueda.
+/	All rights reserved.
+*/
+
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
